@@ -3,7 +3,6 @@
   margin: 0;
 }
 
-
 /*=================== Variables ==========================*/
 
 :root {
@@ -16,9 +15,8 @@
 /*=================== Variables ==========================*/
 
 body {
-  
   /* background-color: rgb(189, 228, 228); */
-  background-image: url("./imgs/sky-img.jpg");
+  background-image: url("./section-4-imgs/sky-img.jpg");
 }
 .section-4-navbar {
   width: 100%;
@@ -215,17 +213,153 @@ body {
   color: black;
 }
 .seemore-btn:hover {
-  box-shadow: 0 0 5px rgb(89, 0, 255);
+  box-shadow: 0 0 5px rgb(123, 62, 238);
 }
 
-/* ===============MediaQuery=========== */
+/* ===============MediaQuery (MAX-WIDTH:500px)=========== */
+
+@media (max-width: 850px) {
+  * {
+    overflow-x: hidden;
+  }
+  .section-4-body {
+  }
+  .section-4-frst-containr {
+    /* background-color: blue; */
+    overflow: hidden;
+    height: 150px;
+  }
+  .section-4-frst-sub1-cntnr {
+    /* background-color: red; */
+    width: 190px;
+    overflow: hidden;
+    height: 110px;
+    margin-left: 50px;
+  }
+  .section-4-frst-sub1-border-cntnr {
+    width: 180px;
+    height: 90px;
+    overflow: hidden;
+  }
+  .offr-div {
+    /* background-color: #00262b; */
+    width: 115px;
+    height: 50px;
+    overflow: hidden;
+  }
+  .section-4-offr-text {
+    font-size: 48px;
+    overflow: hidden;
+  }
+  .section-4-offr-text2 {
+    font-size: 22px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  .section-4-weektext {
+    font-size: 25px;
+    overflow: hidden;
+  }
+  .section-4-frst-sub2-cntnr {
+    /* background-color: rgb(129, 26, 26); */
+    margin-right: 45px;
+    width: 250px;
+    overflow: hidden;
+    height: 70%;
+  }
+  .time-text {
+    font-size: 20px;
+    overflow: hidden;
+  }
+  .holyday-text-div {
+    /* background-color: gray; */
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  .next-text {
+    font-size: 25px;
+    overflow: hidden;
+  }
+  .holidays-text {
+    font-size: 25px;
+    overflow: hidden;
+  }
+
+  .sctn-4-scnd-contnr {
+    /* background-color: #08bbd3; */
+    height: 370px;
+    justify-content: space-between;
+    padding: 0;
+    overflow: hidden;
+  }
+  .sctn-4-scnd-contnr-sub1-contr {
+    overflow: hidden;
+    /* background-color: #00262b; */
+    height: 180px;
+    /* flex-direction: column; */
+
+    align-items: center;
+    display: flex;
+  }
+  .sctn-4-scnd-event-box {
+    width: 350px;
+    /* background-color: red; */
+    height: 120px;
+    border-radius: 20px;
+    overflow: hidden;
+    /* margin-left: -10px; */
+  }
+  .event-img {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .sction-4-package-div {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin-left: -60px;
+  }
+
+  .sctn-4-scnd-package-box {
+    /* background-color: blue; */
+    height: 110px;
+    width: 220px;
+    overflow: hidden;
+    /* margin-top: -150px;
+    margin-left: 40px; */
+  }
+  .sctn-4-scnd-package-box-div {
+    margin-left: 3px;
+    /* background-color: #00262b; */
+    width: 210px;
+    height: 88%;
+    overflow: hidden;
+  }
+  .travelpckage-h1 {
+    overflow: hidden;
+    font-size: 16px;
+  }
+  .line {
+    width: 100px;
+    overflow: hidden;
+  }
+  .seemore-btn {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    font-size: 12px;
+  }
+}
+
+/* ===============MediaQuery (MAX-WIDTH:850px)=========== */
 
 @media (max-width: 500px) {
   * {
     overflow-x: hidden;
   }
-  .section-4-body{
-
+  .section-4-body {
   }
   .section-4-frst-containr {
     /* background-color: blue; */
@@ -240,10 +374,9 @@ body {
     margin-left: 20px;
   }
   .section-4-frst-sub1-border-cntnr {
-    width: 150px;
-    height: 75px;
+    width: 147px;
+    height: 78px;
     overflow: hidden;
-
   }
   .offr-div {
     /* background-color: #00262b; */
@@ -254,13 +387,11 @@ body {
   .section-4-offr-text {
     font-size: 40px;
     overflow: hidden;
-
   }
   .section-4-offr-text2 {
     font-size: 22px;
     margin-top: 10px;
     overflow: hidden;
-
   }
   .section-4-weektext {
     font-size: 22px;
@@ -276,7 +407,6 @@ body {
   .time-text {
     font-size: 14px;
     overflow: hidden;
-
   }
   .holyday-text-div {
     /* background-color: gray; */
@@ -294,16 +424,15 @@ body {
 
   .sctn-4-scnd-contnr {
     /* background-color: #08bbd3; */
-    height: 550px;
-    justify-content: center;
+    height: 470px;
+    justify-content: space-between;
     padding: 0;
     overflow: hidden;
-
   }
   .sctn-4-scnd-contnr-sub1-contr {
     overflow: hidden;
     /* background-color: #00262b; */
-    height: 48%;
+    height: 230px;
     flex-direction: column;
     justify-content: space-evenly;
     gap: 20px;
@@ -328,8 +457,8 @@ body {
     width: 60px;
     height: 60px;
     overflow: hidden;
-    margin-left: -410px;
-    margin-bottom: 30px;
+    margin-left: -240px;
+    margin-bottom: 40px;
   }
 
   .sctn-4-scnd-package-box {
@@ -338,7 +467,7 @@ body {
     width: 220px;
     overflow: hidden;
     margin-top: -150px;
-    margin-left: 40px;
+    margin-left: 205px;
   }
   .sctn-4-scnd-package-box-div {
     margin-left: 3px;
@@ -354,14 +483,18 @@ body {
   .line {
     width: 100px;
     overflow: hidden;
-
   }
   .seemore-btn {
     width: 100px;
     height: 25px;
     border-radius: 5px;
     overflow: hidden;
+    
 
     font-size: 12px;
+  }
+  .seemore-btn:hover{
+box-shadow: 0 0 0px gray;
+
   }
 }
