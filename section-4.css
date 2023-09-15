@@ -1,0 +1,367 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+/*=================== Variables ==========================*/
+
+:root {
+  --Primary: #08bbd3;
+  --Secondary: #9ad8e4;
+  --thrd: #f8f9fa;
+  --forth: #014e5c;
+}
+
+/*=================== Variables ==========================*/
+
+body {
+  
+  /* background-color: rgb(189, 228, 228); */
+  background-image: url("./imgs/sky-img.jpg");
+}
+.section-4-navbar {
+  width: 100%;
+  height: 100px;
+  /* background-color: rgb(216, 52, 52); */
+  position: relative;
+}
+.section-4-frst-containr {
+  width: 100%;
+  height: 180px;
+  /* background-color: antiquewhite; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-4-frst-sub1-cntnr {
+  width: 290px;
+  height: 120px;
+  background-color: white;
+  border-radius: 0 40px 40px 0;
+  align-items: center;
+  box-shadow: 0 0 5px rgb(224, 224, 224);
+  display: flex;
+  margin-left: 43px;
+}
+.section-4-frst-sub1-border-cntnr {
+  width: 280px;
+  height: 105px;
+  border: 1px solid rgb(0, 255, 234);
+  border-left: none;
+  border-radius: 0 40px 40px 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.offr-div {
+  width: 140px;
+  height: 60px;
+  /* background-color: rgb(39, 38, 38); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-4-offr-text {
+  font-size: 60px;
+  color: rgb(0, 190, 190);
+  font-family: "Lora", serif;
+}
+.section-4-offr-text2 {
+  margin-top: 20px;
+  font-size: 28px;
+  color: rgb(2, 167, 167);
+  font-family: "Lora", serif;
+}
+.section-4-weektext {
+  font-size: 28px;
+  color: black;
+  font-weight: 9000;
+}
+
+.section-4-frst-sub2-cntnr {
+  margin-right: 50px;
+  width: 380px;
+  height: 90%;
+  /* background-color: rgb(18, 192, 169); */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+.time-text {
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-size: 22px;
+  /* text-shadow: 0 0 5px rgb(182, 181, 181); */
+  font-family: "Lora", serif;
+}
+.holyday-text-div {
+  margin-top: 8px;
+  width: 100%;
+  height: 60%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+.next-text {
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-size: 41px;
+  font-family: "Lora", serif;
+  /* text-shadow: 0 0 5px rgb(204, 204, 204); */
+}
+.holidays-text {
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: "Lora", serif;
+  font-size: 41px;
+  /* text-shadow: 0 0 5px rgb(214, 214, 214); */
+}
+
+.sctn-4-scnd-contnr {
+  width: 100%;
+  height: 400px;
+  /* background-color: rgb(0, 0, 0); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.sctn-4-scnd-contnr-sub1-contr {
+  width: 100%;
+  height: 45%;
+  /* background-color: rgb(3, 47, 85); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sctn-4-scnd-event-box {
+  width: 650px;
+  height: 100%;
+  background-color: white;
+  margin-left: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: 0 0 5px gray; */
+}
+.event-img {
+  width: 97%;
+  height: 88%;
+  /* box-shadow: 0 0 5px rgb(165, 165, 165); */
+  border-radius: 20px;
+}
+.sctn-4-scnd-package-box {
+  width: 450px;
+  height: 100%;
+  margin-right: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  /* position: absolute; */
+  /* box-shadow: 0 0 5px rgb(155, 154, 154); */
+  justify-content: flex-start;
+  border-radius: 40px 0 0 40px;
+}
+.sction-4-package-div {
+  width: 100px;
+  height: 100px;
+  background-color: var(--Primary);
+  border-radius: 1550px;
+  position: relative;
+  margin-right: -180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.package-img {
+  width: 60%;
+  height: 60%;
+}
+.sctn-4-scnd-package-box-div {
+  margin-left: 8px;
+  width: 440px;
+  height: 90%;
+  /* position: absolute; */
+  border: 1px solid rgb(0, 255, 234);
+  border-right: none;
+  border-radius: 40px 0 0 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.travelpckage-h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+.line {
+  width: 250px;
+  border: 1px solid var(--Primary);
+}
+.seemore-btn {
+  width: 210px;
+  border: 0;
+  font-weight: bold;
+  border-radius: 20px;
+  height: 35px;
+  font-size: 16px;
+  /* box-shadow: 0 0 5px rgb(155, 154, 154); */
+  background-color: var(--Primary);
+  color: black;
+}
+.seemore-btn:hover {
+  box-shadow: 0 0 5px rgb(89, 0, 255);
+}
+
+/* ===============MediaQuery=========== */
+
+@media (max-width: 500px) {
+  * {
+    overflow-x: hidden;
+  }
+  .section-4-body{
+
+  }
+  .section-4-frst-containr {
+    /* background-color: blue; */
+    overflow: hidden;
+    height: 150px;
+  }
+  .section-4-frst-sub1-cntnr {
+    /* background-color: red; */
+    width: 160px;
+    overflow: hidden;
+    height: 90px;
+    margin-left: 20px;
+  }
+  .section-4-frst-sub1-border-cntnr {
+    width: 150px;
+    height: 75px;
+    overflow: hidden;
+
+  }
+  .offr-div {
+    /* background-color: #00262b; */
+    width: 110px;
+    height: 50px;
+    overflow: hidden;
+  }
+  .section-4-offr-text {
+    font-size: 40px;
+    overflow: hidden;
+
+  }
+  .section-4-offr-text2 {
+    font-size: 22px;
+    margin-top: 10px;
+    overflow: hidden;
+
+  }
+  .section-4-weektext {
+    font-size: 22px;
+    overflow: hidden;
+  }
+  .section-4-frst-sub2-cntnr {
+    /* background-color: rgb(129, 26, 26); */
+    margin-right: 30px;
+    width: 180px;
+    overflow: hidden;
+    height: 50%;
+  }
+  .time-text {
+    font-size: 14px;
+    overflow: hidden;
+
+  }
+  .holyday-text-div {
+    /* background-color: gray; */
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  .next-text {
+    font-size: 18px;
+    overflow: hidden;
+  }
+  .holidays-text {
+    font-size: 17px;
+    overflow: hidden;
+  }
+
+  .sctn-4-scnd-contnr {
+    /* background-color: #08bbd3; */
+    height: 550px;
+    justify-content: center;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  .sctn-4-scnd-contnr-sub1-contr {
+    overflow: hidden;
+    /* background-color: #00262b; */
+    height: 48%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+
+    /* display: grid;
+  grid-template-columns: repeat(1,2fr);
+  grid-template-rows: auto; */
+  }
+  .sctn-4-scnd-event-box {
+    width: 330px;
+    /* background-color: red; */
+    height: 100px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: -10px;
+  }
+  .event-img {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .sction-4-package-div {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin-left: -410px;
+    margin-bottom: 30px;
+  }
+
+  .sctn-4-scnd-package-box {
+    /* background-color: blue; */
+    height: 90px;
+    width: 220px;
+    overflow: hidden;
+    margin-top: -150px;
+    margin-left: 40px;
+  }
+  .sctn-4-scnd-package-box-div {
+    margin-left: 3px;
+    /* background-color: #00262b; */
+    width: 210px;
+    height: 88%;
+    overflow: hidden;
+  }
+  .travelpckage-h1 {
+    overflow: hidden;
+    font-size: 16px;
+  }
+  .line {
+    width: 100px;
+    overflow: hidden;
+
+  }
+  .seemore-btn {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    font-size: 12px;
+  }
+}
